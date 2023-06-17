@@ -4,7 +4,7 @@ $DISABLE_NOT_SIGNED = 3     # "Disable all macros except digitally signed macros
 $DISABLE_NO_NOTIFY = 4      # "Disable all macros without notification"
 
 function Set-VBAWarningsFor($appPath, $val) {
-    Write-Output "Writing VBAWarnings to " $appPath
+    Write-Host "Writing VBAWarnings value" $val "to" $appPath
 
     # Verify the path exists:
     if (!(Test-Path $appPath)) {
@@ -14,7 +14,7 @@ function Set-VBAWarningsFor($appPath, $val) {
     }
 
     # Set the value
-    Set-ItemProperty -Path $path -Name VBAWarnings -Value $val
+    Set-ItemProperty -Path $appPath -Name VBAWarnings -Value $val
 }
 
 $excel16 = "HKCU:\Software\Microsoft\Office\16.0\Excel\Security"
