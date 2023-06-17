@@ -21,6 +21,6 @@ $excel16 = "HKCU:\Software\Microsoft\Office\16.0\Excel\Security"
 $word16 = "HKCU:\Software\Microsoft\Office\16.0\Word\Security"
 $outlook16 = "HKCU:\Software\Microsoft\Office\16.0\Outlook\Security"
 
-Set-VBAWarningsFor $excel16 $ENABLE_ALL
-Set-VBAWarningsFor $word16 $ENABLE_ALL
-Set-VBAWarningsFor $outlook16 $ENABLE_ALL
+Set-VBAWarningsFor $excel16 $DISABLE_NO_NOTIFY
+Set-VBAWarningsFor $word16 $DISABLE_NO_NOTIFY
+Set-VBAWarningsFor $outlook16 $DISABLE_NO_NOTIFY
