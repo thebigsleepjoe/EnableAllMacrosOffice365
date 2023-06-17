@@ -12,7 +12,7 @@ Run the script, enablemacros.ps1 as System to reconfigure the current user's reg
 It is best used with an RMM that supports Powershell.
 
 ## 🔓 What are the security implications?
-This script is not for regular users; you should only ever implement this in a specific environment where you are using an outdated application that requires macros off.
+This script is not for regular users; you should only ever implement this in a specific environment where you are using an outdated application that requires macros always on.
 
 📖 Read more about [how macros are dangerous](https://support.microsoft.com/en-us/office/protect-yourself-from-macro-viruses-a3f3576a-bfef-4d25-84dc-70d18bde5903)
 
