@@ -1,8 +1,10 @@
 # 🖥️ Enable all macros within Office 365
-This simple script works as of 6/16/2023. In the future it may not work or the paths to Excel/Word may change to versions later than 16.0
+This simple script works as of 6/16/2023; in the futur the paths to the apps (Word, Excel, Outlook) may change to versions later than 16.0.
+
+The script can easily be changed to support version changes, however.
 
 ## What is this?
-This script is used to easily configure the enabled state of macros within the Office 365 environment.
+This script is used to easily configure the enabled state of macros within the Office 365 environment. By default, it reconfigures Outlook, Word, and Excel. It can be easily modified to support other Office 365 applications, or to disable macros instead of enabling them.
 
 It will only configure the currently logged in user. It does *not* lock the variable in this state, meaning the user can just turn it back off if they want.
 
